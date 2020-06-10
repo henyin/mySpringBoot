@@ -46,6 +46,7 @@ public class App
         System.out.println( "Hello World!" );
         SpringApplication.run(App.class, args);
         logger.info("Constructor ...");
+        logger.info("add log in web ...");
 
         setValue(getAmount() == null ? 0 : getAmount());
 
