@@ -47,7 +47,7 @@ public class App
         SpringApplication.run(App.class, args);
         logger.info("Constructor ...");
         logger.info("add log in web ...");
-        logger.info("add log in ide ...")
+        logger.info("add log in ide ...");
 
         setValue(getAmount() == null ? 0 : getAmount());
 
