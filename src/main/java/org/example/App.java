@@ -48,6 +48,7 @@ public class App
         logger.info("Constructor ...");
         logger.info("add log in web ...");
         logger.info("add log in ide ...");
+        logger.info("test no commit");
 
         setValue(getAmount() == null ? 0 : getAmount());
 
